@@ -6,7 +6,8 @@ module.exports = function() {
     for (let dependency of plugin.dependencies) {
       if (!target.registrations[dependency]) {
         throw new Error('Plugin called ' + dependency +
-          ' required by dependencies but wasn\'t registered')
+          ' required by dependencies of ' + plugin.name +
+          ' but wasn\'t registered')
       }
     }
 

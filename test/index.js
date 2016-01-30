@@ -30,7 +30,8 @@ describe('remi-dependencies', function() {
     })
 
     registrator.register(plugin).catch(err => {
-      expect(err).to.be.an.instanceof(Error)
+      expect(err).to.be.an.instanceof(Error, 'Plugin called foo required by ' +
+        'dependencies of plugin1 but wasn\'t registered')
       done()
     })
   })
