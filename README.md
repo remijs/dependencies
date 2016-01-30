@@ -25,7 +25,7 @@ const remiDependencies = require('remi-dependencies')
 
 let app = {}
 let registrator = remi(app)
-registrator.hook(remiDependencies)
+registrator.hook(remiDependencies())
 ```
 
 You can specify plugin dependencies in you attributes and remi-dependencies

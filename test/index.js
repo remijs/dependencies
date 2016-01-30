@@ -8,7 +8,7 @@ describe('remi-dependencies', function() {
   it('should not throw error if dependent plugin was registered', function() {
     let registrator = remi({})
 
-    registrator.hook(remiDependencies)
+    registrator.hook(remiDependencies())
 
     let foo = plugiator.noop('foo')
     let bar = plugiator.noop({
@@ -22,7 +22,7 @@ describe('remi-dependencies', function() {
   it('should throw error if dependent plugin not present', function(done) {
     let registrator = remi({})
 
-    registrator.hook(remiDependencies)
+    registrator.hook(remiDependencies())
 
     let plugin = plugiator.noop({
       name: 'plugin1',
