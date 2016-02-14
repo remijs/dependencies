@@ -10,10 +10,8 @@ A remi hook to add dependencies to remi plugins
 
 ## Installation
 
-This module is installed via npm:
-
-``` bash
-$ npm install remi-dependencies
+``` sh
+npm install remi-dependencies
 ```
 
 
