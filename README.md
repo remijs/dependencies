@@ -2,10 +2,10 @@
 
 A remi hook to add dependencies to remi plugins
 
-[![Dependency Status](https://david-dm.org/remijs/dependencies/status.svg?style=flat)](https://david-dm.org/remijs/dependencies)
-[![Build Status](https://travis-ci.org/remijs/dependencies.svg?branch=master)](https://travis-ci.org/remijs/dependencies)
+[![Dependency Status](https://david-dm.org/remijs/remi-dependencies/status.svg?style=flat)](https://david-dm.org/remijs/remi-dependencies)
+[![Build Status](https://travis-ci.org/remijs/remi-dependencies.svg?branch=master)](https://travis-ci.org/remijs/remi-dependencies)
 [![npm version](https://badge.fury.io/js/remi-dependencies.svg)](http://badge.fury.io/js/remi-dependencies)
-[![Coverage Status](https://coveralls.io/repos/remijs/dependencies/badge.svg?branch=master&service=github)](https://coveralls.io/github/remijs/dependencies?branch=master)
+[![Coverage Status](https://coveralls.io/repos/remijs/remi-dependencies/badge.svg?branch=master&service=github)](https://coveralls.io/github/remijs/remi-dependencies?branch=master)
 
 
 ## Installation
@@ -61,4 +61,4 @@ registrator.register([dependent, main]).catch(err => console.error(err))
 
 ## License
 
-MIT
+MIT © [Zoltan Kochan](https://github.com/zkochan)

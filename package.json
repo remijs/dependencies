@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zkochan/remi-dependencies"
+    "url": "https://github.com/remijs/remi-dependencies"
   },
   "keywords": [
     "remi",
@@ -28,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zkochan/remi-dependencies/issues"
+    "url": "https://github.com/remijs/remi-dependencies/issues"
   },
-  "homepage": "https://github.com/zkochan/remi-dependencies#readme",
+  "homepage": "https://github.com/remijs/remi-dependencies#readme",
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.1",
