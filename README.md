@@ -21,8 +21,8 @@ npm install remi-dependencies
 const remi = require('remi')
 const remiDependencies = require('remi-dependencies')
 
-let app = {}
-let registrator = remi(app)
+const app = {}
+const registrator = remi(app)
 registrator.hook(remiDependencies())
 ```
 
@@ -59,4 +59,4 @@ registrator.register([dependent, main]).catch(err => console.error(err))
 
 ## License
 
-MIT © [Zoltan Kochan](https://github.com/zkochan)
+MIT © [Zoltan Kochan](https://www.kochan.io)
