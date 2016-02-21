@@ -1,6 +1,6 @@
 'use strict'
-module.exports = function() {
-  return function(next, target, plugin, cb) {
+module.exports = () => {
+  return (next, target, plugin, cb) => {
     plugin.dependencies = [].concat(plugin.dependencies || [])
 
     for (let dependency of plugin.dependencies) {
@@ -11,6 +11,6 @@ module.exports = function() {
       }
     }
 
-    next(target, plugin, cb)
+    next.applySame()
   }
 }
