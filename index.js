@@ -7,7 +7,7 @@ module.exports = function() {
       if (!target.registrations[dependency]) {
         throw new Error('Plugin called ' + dependency +
           ' required by dependencies of ' + plugin.name +
-          ' but wasn\'t registered')
+          " but wasn't registered")
       }
     }
 
