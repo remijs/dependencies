@@ -1,5 +1,7 @@
 # remi-dependencies
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/remijs/remi-dependencies.svg)](https://greenkeeper.io/)
+
 > A remi hook to add dependencies to remi plugins
 
 <!--@shields('npm', 'travis', 'coveralls')-->
